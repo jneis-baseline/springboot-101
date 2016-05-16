@@ -1,5 +1,8 @@
 apply plugin: 'groovy'
 apply plugin: 'idea'
+apply plugin: 'application'
+
+mainClassName = 'org.jneis.hack.springboot.HelloWorldController'
 
 repositories {
     mavenCentral()
